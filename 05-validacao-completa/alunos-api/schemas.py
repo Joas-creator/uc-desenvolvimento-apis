@@ -5,8 +5,9 @@ from datetime import datetime
 class AlunoCreate(BaseModel):
     nome:str = Field(..., min_length=2, max_length=100)
     email:EmailStr
-    matricula: str = Field(..., min_length=8, max_length=8, description='Exatamente 8 dígitos')
-    nota_final: float = Field(0.0, ge=0, le=10)
+    matricula:str = Field(..., min_length=8, max_length=8, description='Exatamente 8 digitos')
+    nota_final:float = Field(0.0, ge=0, le=10)
+    
     @field_validator('nome')
     @classmethod
     def nome_sem_numeros(cls, v):
@@ -18,9 +19,9 @@ class AlunoCreate(BaseModel):
     @classmethod
     def matricula_so_digitos(cls, v):
         if not v.isdigit():
-            raise ValueError('Matrícula deve conter apenas números')
+            raise ValueError('Matricula deve conter apenas números')
         return v
-
+    
 class AlunoPatch(BaseModel):
     nota_final: Optional[float] = Field(None, ge=0, le=10)
     email: Optional[EmailStr] = None
@@ -32,10 +33,11 @@ class AlunoResponse(BaseModel):
     id:int
     nome:str
     email:str
-    matricula: str
-    nota_final: float
+    matricula:str
+    nota_final:float
     ativo:bool
-    criado_em: datetime
+    criado_em:datetime
 
     class Config:
         from_attributes = True
+        

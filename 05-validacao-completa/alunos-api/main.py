@@ -31,7 +31,7 @@ def criar_aluno(dados: AlunoCreate, db: Session = Depends(get_db)):
         nome = dados.nome,
         email = dados.email,
         matricula = dados.matricula,
-        nota_final=dados.nota_final,
+        nota_final = dados.nota_final,
         ativo=True
     )
     db.add(aluno)
