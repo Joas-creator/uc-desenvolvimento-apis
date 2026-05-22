@@ -137,10 +137,6 @@ uvicorn main:app --reload
 
 <div align="center">
 
-**Material produzido com ❤️ para os alunos do SENAI**
-
-*"Ensinar não é transferir conhecimento, mas criar as possibilidades para a sua própria produção ou a sua construção."* — Paulo Freire
-
 </div>
 
 ---
@@ -149,15 +145,9 @@ Este repositório contém material didático.
 
 ---
 <div align="center">
- 
-[![Stars](https://img.shields.io/github/stars/MMVonnSeek/uc-desenvolvimento-apis?style=social)](https://github.com/MMVonnSeek/uc-desenvolvimento-apis/stargazers)
-[![Forks](https://img.shields.io/github/forks/MMVonnSeek/uc-desenvolvimento-apis?style=social)](https://github.com/MMVonnSeek/uc-desenvolvimento-apis/network/members)
-[![Follow](https://img.shields.io/github/followers/MMVonnSeek?style=social)](https://github.com/MMVonnSeek)
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Max_Muller-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/max-muller-685705248/)
 
 <br>
 
   [Voltar ao topo](#-uc-desenvolvimento-apis)
 
-</div>"# Livros em Manuten��o" 
+</div>"# Livros em Manuten��o" 
