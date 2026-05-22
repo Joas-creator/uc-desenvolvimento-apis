@@ -23,7 +23,7 @@ Nesta Unidade Curricular aprendemos a criar e consumir **APIs REST** utilizando 
 | 2 | **HTTP + Primeira API** | Protocolo HTTP, métodos, status codes, FastAPI básico | Primeira API FastAPI | API de Filmes | ✅ |
 | 3 | **CRUD Completo** | GET, POST, PUT, PATCH, DELETE, HTTPException | CRUD de Produtos | CRUD de Tarefas | ✅ |
 | 4 | **MVC + Banco de Dados** | SQLAlchemy, ORM, Depends(), estrutura MVC | Produtos API + SQLite | Livros API + SQLite | ✅ |
-| 5 | **Validação com Pydantic** | BaseModel, Field, validators, schemas de entrada/saída | Schemas avançados | Validação de Usuários | ⏳ |
+| 5 | **Validação com Pydantic** | BaseModel, Field, validators, schemas de entrada/saída | Schemas avançados | Validação de Usuários | ✅ |
 | 6 | **Autenticação JWT** | bcrypt, JWT, registro, login, proteção de rotas | Auth API Completa | Tarefas com Auth | ⏳ |
 | 7 | **Documentação Swagger** | summary, description, exemplos, tags | Docs ricos na API | Biblioteca documentada | ⏳ |
 | 8 | **Revisão** | Atividades de revisão sobre os conteúdos da UC | — | Atividades de Revisão | ⏳ |
@@ -42,12 +42,12 @@ Ao final desta UC, o aluno deverá ser capaz de:
 - [x] Entender o protocolo HTTP (requisição, resposta, métodos, status codes)
 - [x] Criar APIs REST com Python e FastAPI
 - [x] Implementar endpoints REST completos (GET, POST, PUT, PATCH, DELETE)
-- [ ] Validar dados de entrada com Pydantic
 - [x] Conectar uma API a um banco de dados SQLite com SQLAlchemy
-- [ ] Organizar projetos no padrão MVC
+- [x] Organizar projetos no padrão MVC
+- [x] Validar dados de entrada com Pydantic
 - [ ] Implementar autenticação com JWT (JSON Web Tokens)
-- [ ] Documentar APIs com Swagger/OpenAPI
 - [ ] Aplicar os pilares da segurança da informação (CID) em APIs
+- [ ] Documentar APIs com Swagger/OpenAPI
  
 ---
  
